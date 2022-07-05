@@ -1,0 +1,30 @@
+print("Basic - Print all integers from 0 to 150")
+for n in range(0,151):
+    print(n)
+print("Multiples of five")
+for n in range(5, 1001, 5):
+    print(n)
+print("Counting the Dojo way")
+for n in range(1,101):
+    if(n%10 == 0):
+        print("Coding Dojo")
+    elif(n%5 == 0):
+        print("Coding")
+    else:
+        print(n)
+print("Whoa That sucker's huge")
+finalSum = 0
+for n in range(1,500001,2):
+    finalSum += n
+print(finalSum)
+print("Countdown by Fours")
+for n in range(2018,0,-4):
+    print(n)
+print("Flexible counter")
+lowNum = 2
+highNum = 9
+mult = 3
+count = lowNum
+while count <= highNum:
+    print(count)
+    count += mult
